@@ -1,0 +1,1 @@
+function n(t){if(typeof t!="string"||!t.startsWith("/cards/")||!t.endsWith(".webp"))return;const e=t.slice(0,-5);return`${e}-640.webp 640w, ${e}-960.webp 960w, ${t} 1254w`}function i(t){if(typeof t!="string"||!t.startsWith("/xiaoman/")||!t.endsWith(".webp"))return;const e=t.slice(0,-5);return`${e}-384.webp 384w, ${e}-640.webp 640w, ${t} 1254w`}export{n as a,i as g};
